@@ -21,15 +21,6 @@ client.on("ready", () => {
             })
         }
 
-        bot.user.setPresence({
-            status: 'online',
-            activity: {
-                name: 'with depression',
-                type: 'STREAMING',
-                url: 'https://www.twitch.tv/monstercat'
-            }
-        })
-        
         play(connection)
     })
 })
