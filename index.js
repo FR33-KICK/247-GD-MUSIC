@@ -21,10 +21,10 @@ client.on("ready", () => {
             })
         }
 // Set the client user's activity
-client.user.setActivity('GwnDaan', { type: 'STREAMING' })
+client.user.setActivity('Kijkt naar https://www.youtube.com/GwnDaan', { type: 'PLAYING' })
   .then(presence => console.log(`Activity set to ${presence.activities[0].name}`))
   .catch(console.error);
-
+  
         play(connection)
     })
 })
