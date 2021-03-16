@@ -1,0 +1,17 @@
+{
+  "name": "24-7-music-bot",
+  "version": "1.1.0",
+  "description": "A 24/7 music bot for Discord that can play from a list of user-defined videos.",
+  "main": "index.js",
+  "scripts": {
+    "bot": "node ."
+  },
+  "author": "cnnd",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "ffmpeg-static": "^4.2.7",
+    "opusscript": "^0.0.7",
+    "ytdl-core": "^4.4.2"
+  }
+}
