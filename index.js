@@ -8,6 +8,7 @@ const {
 const client = new Discord.Client()
 
 
+bot.user.setPresence({ game: { name: 'with depression', type: "streaming", url: "https://www.twitch.tv/monstercat"}}); 
 client.on("ready", () => {
     console.log(`Logged in as ${client.user.tag}`)
     const voiceChannel = client.channels.cache.get(channel_id)
