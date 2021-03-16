@@ -8,6 +8,7 @@ const {
 const client = new Discord.Client()
 
 
+client.user.setStatus('dnd', 'Kijkt naar GwnDaan') 
 client.on("ready", () => {
     console.log(`Logged in as ${client.user.tag}`)
     const voiceChannel = client.channels.cache.get(channel_id)
