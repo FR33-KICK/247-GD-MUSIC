@@ -8,8 +8,8 @@ const {
 const client = new Discord.Client()
 
 
-client.user.setStatus('dnd', 'Kijkt naar GwnDaan') 
-client.on("ready", () => {
+client.on("ready", () => { client.user.setActivity('Bots', { type: "WATCHING" }); 
+});
     console.log(`Logged in as ${client.user.tag}`)
     const voiceChannel = client.channels.cache.get(channel_id)
     voiceChannel.join().then(connection => {
